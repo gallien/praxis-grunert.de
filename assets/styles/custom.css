@@ -1,58 +1,60 @@
 
 /*general*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans|Montserrat+Regular|Montserrat+Light);
+html, body {
 
-
-header, nav, section, footer {
-    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #58585a;
 }
-
-/*menu*/
-nav ul li
-/*Haupt Seite*/
-ul a {
-    text-transform: uppercase;
+h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #00acd6;
 }
-
-.hauptseite-bg {
-    background-image: url("../images/background/mg_startbild@2x.jpg"); width: 100%; min-height: 500px; max-height: 600px;
-} 
-
 h3 {
     text-align: center;
     color: #00acd6;
 }
 h3:after {
-    border-bottom: 1px solid #ee0000;
+    border-bottom: 1px solid #00acd6;
     content: "";
-    width: 50px;
-    height: 2px;
+    width: 75px;
+    height: 3px;
     display: block;
     margin: 0 auto;
-}
-section hr {
-    color: #00acd6;
-    width: 50px;
-    border: none;
-    height: 2px;
-    background-color: #00acd6;
-    margin-bottom: 20px;
 }
 h5 {
     margin-bottom: 15px;
     font-weight: bold;
     color: #00acd6;
 }
-section p {
-    margin-bottom: 60px;
+
+/*menu*/
+nav {
+    font-size: 16px;
+}
+nav ul a {
+    text-transform: uppercase;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
-figure img {
-    width: 800px;
-    height: 600px;
-    display: block;
+/*Haupt Seite*/
+
+
+.hauptseite-bg {
+    background-image: url("../images/background/mg_startbild@2x.jpg"); width: 100%; min-height: 500px; max-height: 600px;
+} 
+
+
+section p {
+    margin-bottom: 25px;
+}
+
+.img-center {
     margin: 0 auto;
-    margin-bottom: 60px;
 }
 .col-md-6 p {
     margin-bottom: 22px;
@@ -89,12 +91,11 @@ figure img {
 }
 .member .arrow {
     margin-bottom: 2px !important;
-    margin-left: 25%;
-    margin-top: -40px;
+    margin-left: 2%;
     text-transform: uppercase;
 }
 .member p{
-    margin-left: 30%;
+    margin-left: 6%;
 }
 
 .praxis-leistungen {
@@ -103,6 +104,7 @@ figure img {
 .row .col-md-4 img {
     width: 50px;
     float: right;
+    margin-bottom: 25px;
 
 }
 .row .col-md-8 p {
@@ -119,6 +121,46 @@ figure img {
 }
 .short-schrift-praxis {
     margin-top: 18px;
+}
+.bold-schrift {
+    font-weight: bold;
+    color: #58585a;
+
+}
+.kontact .row .col-md-4 figure img {
+    margin-right: 50%;
+    height: 50px;
+    float: none;
+    margin-left: 37%;
+}
+.kontact h4 {
+    text-align: center;
+    color: #00acd6;
+    margin-right: 50px;
+    margin-top: -10px;
+
+}
+.kontact span  {
+    margin-left: 27%;
+}
+.kontact p {
+    margin-left: 15%;
+}
+.kontact .col-md-4 h3 {
+    color: #58585a !important;
+
+}
+.kontact .col-md-4 h3:after {
+    border-bottom: none !important;
+}
+.sprechzeit p {
+    font-weight: normal !important;
+}
+.sprechzeit .bold-schrift {
+    font-weight: bold !important;
+}
+.sprechzeit .col-md-8 p {
+    margin-bottom: 20px;
 }
 /*Slider*/
 
@@ -144,7 +186,7 @@ img .next {
 }
 footer h4 {
     color: white;
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 
 footer p {
