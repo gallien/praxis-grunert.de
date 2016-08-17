@@ -14,6 +14,8 @@ h1,h2 {
 h3 {
     text-align: center;
     color: #00acd6;
+    margin-top: 1px;
+    font-size: 25px;
 }
 h3:after {
     border-bottom: 1px solid #00acd6;
@@ -22,11 +24,20 @@ h3:after {
     height: 3px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
+}
+h3:before {
+    margin-top: 50px;
 }
 h5 {
     margin-bottom: 15px;
     font-weight: bold;
     color: #00acd6;
+}
+
+.container {
+    max-width: 970px;
+    margin-bottom: 50px;
 }
 
 /*menu*/
@@ -40,13 +51,23 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
+.navbar-nav>li>a {
+    font-weight: bold;
+    margin-bottom: -35px;
+}
+.navbar-brand > img {
+    margin-top: 36px;
+}
 
 /*Haupt Seite*/
 
 
 .hauptseite-bg {
     background-image: url("../images/background/mg_startbild@2x.jpg"); width: 100%; min-height: 500px; max-height: 600px;
-} 
+}
+.header-bild {
+    width: 100%;
+}
 
 
 section p {
@@ -73,17 +94,12 @@ section p {
     color: #58585a;
     font-weight: bold;
 }
-.col-md-4 ul li {
-    list-style: none;
-    color: #58585a;
-    font-weight: bold;
-    margin-left: -33px
-    margin-bottom: 15px;
+.marcus td {
+    width: 500px;
 }
-.col-md-8 ul li {
-    list-style: none;
-    margin-left: -85px;
-  /*  margin-bottom: 15px; */
+.marcus span {
+    font-weight: bold;
+    margin-right: 20px;
 }
 .member img {
     width: 60%;
@@ -97,9 +113,32 @@ section p {
 .member p{
     margin-left: 6%;
 }
-
+.member .col-md-4 {
+    text-align: center;
+}
+.team p {
+    margin-bottom: 60px;
+    margin-top: 50px;
+    padding-left: 1.6em;
+}
 .praxis-leistungen {
     background-color: #f4f3f0;
+}
+.praxis-leistungen .container {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.praxis-leistungen h4{
+    background-image: url(../images/icon_check.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 41px 41px;;
+    padding-left: 3.6em;
+    padding-top: 0.2em;
+    margin-bottom: 25px;
+    font-weight: bold;
+    height: 41px;
+    border-bottom: 1px solid #58585a;
 }
 .row .col-md-4 img {
     width: 50px;
@@ -163,6 +202,12 @@ section p {
     margin-bottom: 20px;
 }
 /*Slider*/
+.stoerer {
+    position: absolute;
+    z-index: 1;
+    right: 40px;
+    top: -45px;
+}
 
 section #mgSlider {
     margin-bottom: 60px;
@@ -179,6 +224,12 @@ img .next {
 }
 .carousel-control.right {
     background-image: none;
+}
+.carousel-control {
+    top: 50%;
+    left: 0;
+    width: 50px;
+    margin-top: -25px;
 }
 /*Footer*/
 .footer-info {
