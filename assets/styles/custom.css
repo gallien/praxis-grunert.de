@@ -62,6 +62,12 @@ nav ul a {
     background-color: white;
     border-color: white;
 }
+.navbar-nav > li > a {
+    margin-top: 12px;
+    margin-bottom: -20px;
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
 footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -71,12 +77,15 @@ footer a {
     text-decoration: none !important;
     font-size: 20px;
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: white;
+}
 .navbar-nav>li>a {
     font-weight: bold;
     margin-bottom: -35px;
 }
 .navbar-brand > img {
-    margin-top: 36px;
+    margin-top: 25px;
 }
 
 /*Haupt Seite*/
@@ -95,7 +104,6 @@ footer a {
     background-color: #00acd6;
     width: 265px;
     margin-bottom: 5px;
-    font-size: 15px;
 }
 .header-bild p{
     color: white;
@@ -107,7 +115,9 @@ footer a {
 .phone_list tr {
     border-bottom: 1px solid white;
     color: white;
+    margin-bottom: 9px;
 }
+
 .phone_list .ohne_line {
     border-bottom: none;
 }
@@ -115,7 +125,7 @@ footer a {
     text-transform: uppercase;
 }
 .phone_list {
-    width: 318px !important;
+    width: 352px !important;
     margin-bottom: 10px !important;
 }
 .header-bild .phone_list {
@@ -134,15 +144,15 @@ footer a {
 .table_phone {
     position: absolute;
     left: 0;
-    top: 40px;
+    top: 48px;
     z-index: 1;
 }
 .table1 {
-    width: 370px !important;
-    height: 116px;
+    width: 400px !important;
+    height: 128px;
 }
 .table2 {
-    width: 370px !important;
+    width: 400px !important;
     height: 296px;
 }
 section p {
