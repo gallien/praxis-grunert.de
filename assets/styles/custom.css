@@ -16,9 +16,11 @@ h3 {
     color: #00acd6;
     margin-top: 1px;
     font-size: 25px;
+    line-height: 50px;
+    text-transform: uppercase;
 }
 h3:after {
-    border-bottom: 1px solid #00acd6;
+    border-bottom: 2px solid #00acd6;
     content: "";
     width: 75px;
     height: 3px;
@@ -33,6 +35,11 @@ h5 {
     margin-bottom: 15px;
     font-weight: bold;
     color: #00acd6;
+}
+em {
+    color: #00acd6;
+    font-style: normal;
+    font-weight: bold;
 }
 .text-center {
     text-align: center;
@@ -50,6 +57,10 @@ nav {
 nav ul a {
     text-transform: uppercase;
     color: #58585a;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
 }
 footer {
     font-family: 'Montserrat', sans-serif;
@@ -75,16 +86,72 @@ footer a {
     background-image: url("../images/background/mg_startbild@2x.jpg"); width: 100%; min-height: 500px; max-height: 600px;
 }
 .header-bild {
-    width: 100%;
+    background-color: #FCF5F2;
 }
+.header-bild h5 {
+    color: #58585a;
+}
+.header-bild .container table {
+    background-color: #00acd6;
+    width: 265px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.header-bild p{
+    color: white;
+}
+.vertretung-tag {
+    color: black !important;
+    border-bottom: 1px solid white;
+}
+.phone_list tr {
+    border-bottom: 1px solid white;
+    color: white;
+}
+.phone_list .ohne_line {
+    border-bottom: none;
+}
+.phone_list h5 {
+    text-transform: uppercase;
+}
+.phone_list {
+    width: 318px !important;
+    margin-bottom: 10px !important;
+}
+.header-bild .phone_list {
+    margin: 0 auto;
+}
+.phone_small {
+    background-image: url(../images/icon_phone_small.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 11px 15px;
+    padding-left: 1.6em;
+    margin-bottom: 25px;
+    margin-left: 2px;
 
-
+}
+.table_phone {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 1;
+}
+.table1 {
+    width: 370px !important;
+    height: 116px;
+}
+.table2 {
+    width: 370px !important;
+    height: 296px;
+}
 section p {
     margin-bottom: 25px;
 }
 
 .img-center {
     margin: 0 auto;
+    width: 100%;
 }
 .col-md-6 p {
     margin-bottom: 22px;
@@ -111,45 +178,45 @@ section p {
     margin-right: 20px;
 }
 .member img {
-    width: 60%;
+    width: 80%;
     height: 60%;
 }
 .member .arrow {
     margin-bottom: 2px !important;
-    margin-left: 2%;
+    margin-left: 3%;
     text-transform: uppercase;
 }
 .member p{
     margin-left: 6%;
-}
-.member .col-md-4 {
-    text-align: center;
+    width: 230px;
 }
 .team p {
     margin-bottom: 60px;
     margin-top: 50px;
     padding-left: 1.6em;
 }
+.team h5 {
+    margin-left: 26px;
+    margin-top: -54px;
+}
 .praxis-leistungen {
     background-color: #f4f3f0;
 }
-/*.praxis-leistungen .container {
-    height: 1343px;
-}*/
 .praxis-leistungen h3 {
     margin-top: 72px;
 }
-.praxis-leistungen h4{
+.praxis-leistungen h5{
     background-image: url(../images/icon_check.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 41px 41px;
     padding-left: 3.6em;
-    padding-top: 0.2em;
+    padding-top: 1.2em;
     margin-bottom: 25px;
     font-weight: bold;
-    height: 41px;
-    border-bottom: 1px solid #58585a;
+    height: 60px;
+    color: #58585a;
+    border-bottom: 1px solid #D6D6D7;
 }
 .row .col-md-4 img {
     width: 50px;
@@ -179,6 +246,7 @@ section p {
     background-size: 40px 55px;
     padding-top: 4em;
     padding-left: -0.4em;
+    margin-bottom: 28px;
 }
 .telefon {
     background-image: url(../images/icon_telefon.svg);
@@ -198,13 +266,8 @@ section p {
     padding-left: -0.4em;
     margin-bottom: 45px;
 }
-.bold-schrift {
-    font-weight: bold;
-    color: #58585a;
-}
-.kontact .bold-schrift {
-    text-align: center;
-}
+
+
 .kontact .row .col-md-4 figure img {
     margin-right: 50%;
     height: 50px;
@@ -214,9 +277,6 @@ section p {
 .kontact h4 {
     text-align: center;
     color: #00acd6;
-    margin-right: 15px;
-    margin-top: -10px;
-
 }
 .kontact span  {
     margin-left: 27%;
@@ -252,12 +312,6 @@ section #mgSlider {
     margin-bottom: 60px;
 }
 
-img .previous {
-
-}
-img .next {
-
-}
 .carousel-control.left {
     background-image: none;
 }
@@ -269,6 +323,15 @@ img .next {
     left: 0;
     width: 50px;
     margin-top: -25px;
+}
+.carousel-indicators {
+    margin-bottom: -53px;
+}
+.carousel-indicators li {
+    border: 1px solid #00acd6;
+}
+.carousel-indicators .active {
+    background-color: #00acd6;
 }
 /*Footer*/
 .footer-info {

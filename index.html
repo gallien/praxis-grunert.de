@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="title" content="Praxis Marcus Grunert – Hausarzt / Internist">
@@ -12,29 +12,91 @@
 </head>
 <body>
     <!--Header-->
+    <nav class="navbar navbar-default">
         <div class="container">
-                <header>
-                    <div class="navbar">
-                        <a class="navbar-brand" href="" title="Marcus Grunert">
-                            <img src="assets/images/mg_logo.svg" alt="">
-                        </a>
-                    </div>
-                </header>
-                <nav>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="" title="Marcus Grunert"><img src="assets/images/mg_logo.svg" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="">Praxis</a></li>
                         <li><a href="">Team</a></li>
                         <li><a href="">Leistungen</a></li>
                         <li><a href="">Kontakt</a></li>
                     </ul>
-                </nav>
+                </div>
         </div>
+    </nav>
     <!--Content-->
     <article>
-        <section>
+        <section class="header-bild">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12"><img src="assets/images/background/mg_startbild.jpg" class="header-bild" alt=""></div>
+                    <div class="col-md-12">
+                        <div class="table_phone">
+                            <table class="table1">
+                                <tr>
+                                    <td>
+                                        <table class="phone_list">
+                                            <tr class="ohne_line">
+                                                <td>
+                                                    <h5>Praxis Geschlossen</h5>
+                                                    <p>Vom 08.08 - 26.08.2016 bleibt die Praxis wegen Urlaubs geschlossen.</p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="table2">
+                                <tr>
+                                    <td>
+                                        <table class="phone_list">
+                                            <tr class="ohne_line">
+                                                <td><h5>Vertretung</h5></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="vertretung-tag">08.08 - 12.08.2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>FA Krausse</td>
+                                                <td class="phone_small">03628.60 22 22</td>
+                                            </tr>
+                                            <tr>
+                                                <td>FA Scholz</td>
+                                                <td class="phone_small">03628.9 18 49 20</td>
+                                            </tr>
+                                        </table>
+
+                                        <table class="phone_list">
+                                            <tr>
+                                                <td class="vertretung-tag">15.08 - 26.08.2016</td>
+                                            </tr>
+                                            <tr>
+                                                <td>FÄ Maak</td>
+                                                <td class="phone_small">03628.60 22 22</td>
+                                            </tr>
+                                            <tr>
+                                                <td>FA Krausse</td>
+                                                <td class="phone_small">03628.60 22 22</td>
+                                            </tr>
+                                            <tr>
+                                                <td>FA Scholz</td>
+                                                <td class="phone_small">03628.9 18 49 20</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <img src="assets/images/background/mg_startbild.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -47,20 +109,21 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                      <h5>Herzlich willkommen.</h5>
                       <p>
-                          Bei uns steht Ihre Gesundheit im Mittelpunkt. In unserer <br>
-                          Praxis können wir Ihnen eine umfangreiche hausärztliche <br>
-                          und internistische Versorgung anbieten. Dabei ist uns neben <br>
+                          <em>Herzlich willkommen.</em><br>
+                          &nbsp;<br>
+                          Bei uns steht Ihre Gesundheit im Mittelpunkt. In unserer
+                          Praxis können wir Ihnen eine umfangreiche hausärztliche
+                          und internistische Versorgung anbieten. Dabei ist uns neben
                       </p>
                     </div>
                     <div class="col-md-6">
                         <p>
-                            einer raschen und eff ektiven Diagnostik und Therapie auch <br>
-                            die individuelle und vertrauensvolle Betreuung unserer <br>
-                            Patienten besonders wichtig. Eine moderne Ausstattung und <br>
-                            ein geschultes Fachpersonal stehen Ihnen dabei zur Verfügung. <br>
-                            Wir freuen uns, Sie in unserer Praxis begrüßen zu dürfen. <br>
+                            einer raschen und eff ektiven Diagnostik und Therapie auch
+                            die individuelle und vertrauensvolle Betreuung unserer
+                            Patienten besonders wichtig. Eine moderne Ausstattung und
+                            ein geschultes Fachpersonal stehen Ihnen dabei zur Verfügung.
+                            Wir freuen uns, Sie in unserer Praxis begrüßen zu dürfen.
                         </p>
                     </div>
                 </div>
@@ -69,7 +132,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
+                    <div class="col-md-12">
                         <div id="mgSlider" class="carousel slide" data-ride="carousel">
                             <img src="assets/images/stoerer.svg" class="stoerer" alt="Störer">
                             <ol class="carousel-indicators">
@@ -106,11 +169,11 @@
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#mgSlider" role="button" data-slide="prev">
-                                <img class="previous" src="assets/images/slider_arrow_previous.svg" alt="">
+                                <img src="assets/images/slider_arrow_previous.svg" alt="">
                                 <span class="sr-only">Previous</span>
                             </a>
                             <a class="right carousel-control" href="#mgSlider" role="button" data-slide="next">
-                                <img class="next" src="assets/images/slider_arrow_next.svg" alt="">
+                                <img src="assets/images/slider_arrow_next.svg" alt="">
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -120,34 +183,36 @@
         </section>
         <section class="team">
             <div class="container">
+                <h3>Das Team</h3>
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>DAS TEAM</h3>
-                        <figure><img src="assets/images/team_800px.jpg" alt="" class="img-responsive img-center"></figure>
+                        <figure><img src="assets/images/team_2x320px.jpg" alt="" class="img-responsive img-center"></figure>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <p>
-                            Ein reibungsloser Praxisablauf hängt vor allem von einem <br>
-                            guten und eingespielten Praxisteam ab. Unser Team ist dank <br>
-                            langjähriger Berufserfahrung mit allen Tätigkeiten in der Praxis <br>
+                            Ein reibungsloser Praxisablauf hängt vor allem von einem
+                            guten und eingespielten Praxisteam ab. Unser Team ist dank
+                            langjähriger Berufserfahrung mit allen Tätigkeiten in der Praxis
                             vertraut und behält souverän den Überblick.
                         </p>
                     </div>
                     <div class="col-md-6">
                         <p>
-                            Der Patientenservice liegt uns sehr am Herzen. Wir sind immer <br>
-                            bestrebt, die besten Lösungen für Ihre Anliegen zu finden.
+                            Der Patientenservice liegt uns sehr am Herzen. Wir sind immer
+                            bestrebt, die besten Lösungen für Ihre Anliegen zu finden. <br>
+                            <em>Für Fragen und Wünsche haben wir stets ein off enes Ohr.</em>
                         </p>
-                        <h5>Für Fragen und Wünsche haben wir stets ein off enes Ohr.</h5>
                     </div>
                 </div>
+
             </div>
+
         </section>
-        <hr>
         <section class="marcus">
             <div class="container">
+                <hr>
                     <div class="col-md-6">
                         <picture>
                             <source media="(max-width: 320px)" srcset="assets/images/marcus_grunert_320.jpg, assets/images/marcus_grunert_320@2x.jpg 2x">
@@ -162,27 +227,32 @@
                                 <h4 class="arrow"> Marcus Grunert</h4>
                                 <table>
                                     <tr>
-                                        <td><span>1996 – 2003</span> Studium in Göttingen</td>
+                                        <td><strong>1996 – 2003</strong></td>
+                                        <td>Studium in Göttingen</td>
                                     </tr>
                                     <tr>
-                                        <td><span>2003 – 2004</span> Praktisches Jahr im Helios Erfurt</td>
+                                        <td><strong>2003 – 2004</strong></td>
+                                        <td>raktisches Jahr im Helios Erfurt</td>
                                     </tr>
                                     <tr>
-                                        <td><span>2004 – 2005</span> Assistenzarzt im Helios Schkeuditz</td>
+                                        <td><strong>2004 – 2005</strong></td>
+                                        <td>ssistenzarzt im Helios Schkeuditz</td>
                                     </tr>
                                     <tr>
-                                        <td><span>2005 – 2010</span> Facharztausbildung in der Ilm-Kreis-Klinik
-                                            Arnstadt</td>
+                                        <td><strong>2005 – 2010</strong></td>
+                                        <td>Facharztausbildung in der Ilm-Kreis-Klinik Arnstadt</td>
                                     </tr>
                                     <tr>
-                                        <td><span>08/2008</span> Zusatzbezeichnung Notfallmedizin</td>
+                                        <td><strong>08/2008</strong></td>
+                                        <td>Zusatzbezeichnung Notfallmedizin</td>
                                     </tr>
                                     <tr>
-                                        <td><span>09/2010</span> Facharzt für Innere Medizin</td>
+                                        <td><strong>09/2010</strong></td>
+                                        <td>Facharzt für Innere Medizin</td>
                                     </tr>
                                     <tr>
-                                        <td><span>seit 01/2011</span> Niederlassung als hausärztlicher Internist
-                                            in Arnstadt</td>
+                                        <td><strong>seit 01/2011</strong></td>
+                                        <td>Niederlassung als hausärztlicher Internist in Arnstadt</td>
                                     </tr>
 
                                 </table>
@@ -191,22 +261,23 @@
                     </div>
 
         </section>
-        <hr>
+
         <section>
             <div class="container-fluid member">
                 <div class="container">
-                    <div class="col-md-4">
+                    <hr>
+                    <div class="col-md-4 text-center">
                         <figure><img src="assets/images/members/marlis_sommerfeld_2x.jpg" class="img-responsive img-center" alt=""></figure>
                         <p class="arrow">Marlis Sommerfeld</p>
                         <p>Med. Fachangestellte</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center">
                         <figure><img src="assets/images/members/annett_weidisch_2x.jpg" alt=""></figure>
                         <p class="arrow">Annett Weidisch</p>
                         <p>Onkologische Fachschwester, <br>
                             Diabetesberaterin DDG</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 text-center">
                         <figure><img src="assets/images/members/tommy_keyssner_2x.jpg" alt=""></figure>
                         <p class="arrow">Tommy Keyssner</p>
                         <p>Med. Fachangestellter</p>
@@ -220,36 +291,36 @@
                     <h3>Die Praxisleistungen</h3>
                     <div class="row">
                         <div class="col-md-4">
-                                <h4>Vorsorge- und
-                                    Gesundheitsuntersuchungen</h4>
+                                <h5>Vorsorge- und
+                                    Gesundheitsuntersuchungen</h5>
                             <p>
-                                Mit unseren Vorsorgeuntersuchungen <br>
-                                können wir helfen, Krankheiten früh <br>
-                                zu erkennen und zu behandeln. <br>
-                                Angebotene Vorsorgeuntersuchungen <br>
-                                unserer Praxis sind: Gesundheits- <br>
-                                Check, Krebsvorsorge, Herz- und <br>
-                                Kreislaufuntersuchungen, Fitness- <br>
-                                Check, Hautkrebsvorsorge, Impfungen, <br>
+                                Mit unseren Vorsorgeuntersuchungen
+                                können wir helfen, Krankheiten früh
+                                zu erkennen und zu behandeln.
+                                Angebotene Vorsorgeuntersuchungen
+                                unserer Praxis sind: Gesundheits-
+                                Check, Krebsvorsorge, Herz- und
+                                Kreislaufuntersuchungen, Fitness-
+                                Check, Hautkrebsvorsorge, Impfungen,
                                 Jugendgesundheitsuntersuchungen (J1).
                             </p>
                         </div>
                         <div class="col-md-4">
-                                <h4>Gesundheitsuntersuchung
-                                    »Check-up 35«</h4>
+                                <h5>Gesundheitsuntersuchung
+                                    »Check-up 35«</h5>
                             <p>
-                                Körperliche Untersuchung, Blutanalyse <br>
-                                und Beratung hinsichtlich Ihrer <br>
-                                individuellen Gesundheitsrisiken, alle 2 <br>
-                                Jahre ab dem 35. Lebensjahr. <br>
-                                Bei einer Gesundheitsuntersuchung <br>
-                                bringen Sie bitte Ihren Impfausweis mit. <br>
+                                Körperliche Untersuchung, Blutanalyse
+                                und Beratung hinsichtlich Ihrer
+                                individuellen Gesundheitsrisiken, alle 2
+                                Jahre ab dem 35. Lebensjahr.
+                                Bei einer Gesundheitsuntersuchung
+                                bringen Sie bitte Ihren Impfausweis mit.
                             </p>
                         </div>
                         <div class="col-md-4">
-                                <h4 class="short-schrift-praxis">Krebsvorsorge</h4>
+                                <h5 class="short-schrift-praxis">Krebsvorsorge</h5>
                             <p>
-                               <span class="bold-schrift">Darmkrebs:</span> Test auf Blut im Stuhl
+                               <strong>Darmkrebs:</strong> Test auf Blut im Stuhl
                                 für alle Patientinnen/Patienten ab
                                 dem 50. Lebensjahr. Mit Beginn
                                 des 55. Lebensjahres Beratung und
@@ -259,7 +330,7 @@
                                 jährlich ab dem 45. Lebensjahr
                             </p>
                             <p>
-                                <span class="bold-schrift">Prostatakrebs:</span> Untersuchung 1x
+                                <strong>Prostatakrebs:</strong> Untersuchung 1x
                                 jährlich ab dem 45. Lebensjahr.
                             </p>
                         </div>
@@ -267,7 +338,7 @@
 
                     <div class="row">
                         <div class="col-md-4">
-                                <h4>Hautkrebsvorsorge</h4>
+                                <h5>Hautkrebsvorsorge</h5>
                             <p>
                                 Anspruchsberechtigt ist jeder
                                 Versicherte ab dem 35. Lebensjahr.
@@ -281,7 +352,7 @@
                             </p>
                         </div>
                         <div class="col-md-4">
-                                <h4>Impfen</h4>
+                                <h5>Impfen</h5>
                             <p>
                                 Lassen Sie Ihren Impfausweis in
                                 der Praxis prüfen. Notwendige
@@ -295,7 +366,7 @@
                             </p>
                         </div>
                         <div class="col-md-4">
-                                <h4 class="short-schrift-praxis">Reiseberatungen</h4>
+                                <h5 class="short-schrift-praxis">Reiseberatungen</h5>
                             <p>
                                 Wir sind Reiseweltmeister. Unter
                                 Reisemedizin versteht man den
@@ -311,10 +382,10 @@
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                                <h4>
+                                <h5>
                                     Belastungs-EKG + Langzeit-EKG
                                     + Langzeit-Blutdruck
-                                </h4>
+                                </h5>
                             <p>
                                 Das EKG gehört zur grundlegenden
                                 Diagnostik in der Inneren Medizin. Es ist
@@ -332,10 +403,10 @@
                             </p>
                         </div>
                         <div class="col-md-4">
-                                <h4>
+                                <h5>
                                     Abdomen- und Schilddrüsen-
                                     Sonographie
-                                </h4>
+                                </h5>
                             <p>
                                 Ultraschalluntersuchungen geben
                                 frühzeitig Aufschluss über den Zustand
@@ -347,10 +418,10 @@
                             </p>
                         </div>
                         <div class="col-md-4">
-                            <h4>
+                            <h5>
                                 DMP mit Diabetiker- und
                                 Hypertonieschulungen
-                            </h4>
+                            </h5>
                             <p>
                                 Patienten, die unter chronischen
                                 Krankheiten leiden, sollen durch eine
@@ -372,10 +443,10 @@
                 <div class="row">
                     <div class="col-md-4 text-center">
                         <h4 class="praxis">Praxis</h4>
-                        <p>
-                            <div class="bold-schrift">Marcus Grunert</div>
+                        <div>
+                            <strong>Marcus Grunert</strong> <br>
                             Schloßstraße 5, 99310 Arnstadt
-                        </p>
+                        </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <h4 class="telefon">Telefon</h4>
@@ -392,16 +463,16 @@
             <div class="container sprechzeit">
                 <div class="row">
                     <div class="col-md-4">
-                        <p class="bold-schrift">Sprechzeiten & <br>
+                        <p ><strong>Sprechzeiten &</strong> <br>
                         Notfallsprechstunde:</p>
                     </div>
                     <div class="col-md-8">
                         <p>
-                            <span class="bold-schrift">Mo / Mi / Fr:</span>
+                            <strong>Mo / Mi / Fr:</strong>
                             08.30 – 12.30 Uhr <br>
-                            <span class="bold-schrift">Di:</span>
+                            <strong>Di:</strong>
                             08.30 – 12.30 / 15.00 – 17.00 Uhr <br>
-                            <span class="bold-schrift">Do:</span>
+                            <strong>Do:</strong>
                             14.00 – 18.00 Uhr
                         </p>
                     </div>
@@ -410,8 +481,8 @@
                     <div class="col-md-4"></div>
                     <div class="col-md-8">
                         <p>
-                            Patienten mit akuten Beschwerden nutzen bitte unsere <span class="bold-schrift">Notfallsprechstunde von
-                            08.30 – 10.00 Uhr (außer Do 14:00 – 15:30 Uhr) </span>. Zu den übrigen Sprechzeiten wird
+                            Patienten mit akuten Beschwerden nutzen bitte unsere <strong>Notfallsprechstunde von
+                            08.30 – 10.00 Uhr (außer Do 14:00 – 15:30 Uhr) </strong>. Zu den übrigen Sprechzeiten wird
                             eine vorherige Terminvereinbarung erbeten.
                         </p>
 
@@ -432,7 +503,7 @@
                             <img src="assets/images/logo_footer.svg" alt="">
                         </a>
                     </div>
-                    <div class="col-md-9 text-right">
+                    <div class="col-md-6 col-md-offset-3 text-right">
                         <a href="impressium.html">Impressum / Datenschutz</a>
                         <p>© Marcus Grunert</p>
                     </div>
