@@ -223,6 +223,7 @@ section p {
     padding-left: 3.6em;
     padding-top: 1.2em;
     margin-bottom: 25px;
+    font-size: 15px;
     font-weight: bold;
     height: 60px;
     color: #58585a;
@@ -277,29 +278,19 @@ section p {
     margin-bottom: 45px;
 }
 
-
-.kontact .row .col-md-4 figure img {
-    margin-right: 50%;
-    height: 50px;
-    float: none;
-    margin-left: 37%;
-}
 .kontact h4 {
     text-align: center;
     color: #00acd6;
 }
-.kontact span  {
-    margin-left: 27%;
-}
 .kontact p {
-    margin-left: 15%;
+    font-size: 22px;
 }
-.kontact .col-md-4 h3 {
-    color: #58585a !important;
-
+.kontact .border-right {
+    border-right: 1px solid #E4E4E6;
 }
-.kontact .col-md-4 h3:after {
-    border-bottom: none !important;
+.kontact .border-left {
+    border-left: 1px solid #E4E4E6;
+    height: 175px;
 }
 .sprechzeit p {
     font-weight: normal !important;
