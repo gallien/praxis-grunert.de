@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="de" xmlns="http://www.w3.org/1999/html">
+<html lang="de">
 <head>
+    <title>Praxis Marcus Grunert</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Praxis Marcus Grunert – Hausarzt / Internist">
     <meta name="description" content="Die Arztpraxis Marcus Grunert befindet sich im Herzen von Arnstadt mit dem Hauptfokus auf der hausärztlich-internistischen Versorgung.">
-    <title>Praxis Marcus Grunert</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/custom.css">
 </head>
-<body>
-    <!--Header-->
+<body data-spy="scroll" data-target="#navbar-collapse">
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -22,98 +21,79 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="" title="Marcus Grunert">
+                <a class="navbar-brand" href="/" title="Marcus Grunert">
                     <picture>
-                        <source srcset="assets/images/logo_header_mobil.svg" media="(max-width: 768px)" class="small-logo">
-                        <img src="assets/images/mg_logo.svg" alt="" class="logo">
+                        <source srcset="assets/images/mg_logo_mobil.svg" media="(max-width: 768px)">
+                        <img src="assets/images/mg_logo.svg" alt="Logo">
                     </picture>
-
                 </a>
             </div>
-            <div class="collapse navbar-collapse pull-right sidebar" id="navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://localhost:63342/MG/index.html/#one">Praxis</a></li>
-                        <li><a href="http://localhost:63342/MG/index.html/#two">Team</a></li>
-                        <li><a href="http://localhost:63342/MG/index.html/#three">Leistungen</a></li>
-                        <li><a href="http://localhost:63342/MG/index.html/#four">Kontakt</a></li>
-                    </ul>
+            <div id="navbar-collapse" class="collapse navbar-collapse pull-right">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#praxis">Praxis</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
             </div>
         </div>
     </nav>
-    <!--Content-->
     <article>
-        <section class="header-bild">
+        <section id="header">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="table_phone">
-                            <table class="table1">
-                                <tr>
-                                    <td>
-                                        <table class="phone_list">
-                                            <tr class="ohne_line">
-                                                <td>
-                                                    <h5>Praxis Geschlossen</h5>
-                                                    <p>Vom 08.08 - 26.08.2016 bleibt die Praxis wegen Urlaubs geschlossen.</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table class="table2">
-                                <tr>
-                                    <td>
-                                        <table class="phone_list">
-                                            <tr class="ohne_line">
-                                                <td><h5>Vertretung</h5></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="vertretung-tag">08.08 - 12.08.2016</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>FA Krausse</td>
-                                                <td class="phone_small">03628.60 22 22</td>
-                                            </tr>
-                                            <tr>
-                                                <td>FA Scholz</td>
-                                                <td class="phone_small">03628.9 18 49 20</td>
-                                            </tr>
-                                        </table>
-
-                                        <table class="phone_list">
-                                            <tr>
-                                                <td class="vertretung-tag">15.08 - 26.08.2016</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>FÄ Maak</td>
-                                                <td class="phone_small">03628.60 22 22</td>
-                                            </tr>
-                                            <tr>
-                                                <td>FA Krausse</td>
-                                                <td class="phone_small">03628.60 22 22</td>
-                                            </tr>
-                                            <tr>
-                                                <td>FA Scholz</td>
-                                                <td class="phone_small">03628.9 18 49 20</td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
+                        <div class="header-box-wrapper">
+                            <div class="header-box header-box-1">
+                                <h4>Praxis Geschlossen</h4>
+                                <p>Vom 08.08 - 26.08.2016 bleibt die Praxis wegen Urlaubs geschlossen.</p>
+                            </div>
+                            <div class="header-box header-box-2">
+                                <h4>Vertretung</h4>
+                                <h5>08.08 - 12.08.2016</h5>
+                                <table>
+                                    <tr>
+                                        <td>FA Krausse</td>
+                                        <td>03628.60 22 22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FA Scholz</td>
+                                        <td>03628.9 18 49 20</td>
+                                    </tr>
+                                </table>
+                                <h5>15.08 - 26.08.2016</h5>
+                                <table>
+                                    <tr>
+                                        <td>FÄ Maak</td>
+                                        <td>03628.60 22 22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FA Krausse</td>
+                                        <td >03628.60 22 22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FA Scholz</td>
+                                        <td>03628.9 18 49 20</td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
-                        <img src="assets/images/background/mg_startbild.jpg" class="img-responsive" alt="">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="assets/images/mg_header_320.jpg, assets/images/mg_header_320@2x.jpg 2x">
+                            <source media="(max-width: 640px)" srcset="assets/images/mg_header_640.jpg, assets/images/mg_header_640@2x.jpg 2x">
+                            <source media="(max-width: 800px)" srcset="assets/images/mg_header_800.jpg, assets/images/mg_header_800@2x.jpg 2x">
+                            <source srcset="assets/images/mg_header.jpg, assets/images/mg_header@2x.jpg 2x">
+                            <img src="assets/images/mg_header.jpg" class="img-responsive img-center" alt="Marcus Grunert">
+                        </picture>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="one">
+        <section id="praxis">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>Die Praxis</h3>
+                        <h2>Die Praxis</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -142,22 +122,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="mgSlider" class="carousel slide" data-ride="carousel">
+                        <div id="carousel" class="carousel slide" data-ride="carousel">
                             <img src="assets/images/stoerer.svg" class="stoerer" alt="Störer">
                             <ol class="carousel-indicators">
-                                <li data-target="#mgSlider" data-slide-to="0" class="active"></li>
-                                <li data-target="#mgSlider" data-slide-to="1"></li>
-                                <li data-target="#mgSlider" data-slide-to="2"></li>
-                                <li data-target="#mgSlider" data-slide-to="3"></li>
-                                <li data-target="#mgSlider" data-slide-to="4"></li>
-                                <li data-target="#mgSlider" data-slide-to="5"></li>
-                                <li data-target="#mgSlider" data-slide-to="6"></li>
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                                <li data-target="#carousel" data-slide-to="3"></li>
+                                <li data-target="#carousel" data-slide-to="4"></li>
+                                <li data-target="#carousel" data-slide-to="5"></li>
+                                <li data-target="#carousel" data-slide-to="6"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
                                     <img src="assets/images/praxis_01.jpg" class="img-responsive" alt="">
                                 </div>
-
                                 <div class="item">
                                     <img src="assets/images/praxis_02.jpg" class="img-responsive" alt="">
                                 </div>
@@ -177,12 +156,12 @@
                                     <img src="assets/images/praxis_07.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
-                            <a class="left carousel-control" href="#mgSlider" role="button" data-slide="prev">
-                                <img src="assets/images/slider_arrow_previous.svg" alt="">
+                            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                                <img src="assets/images/carousel_arrow_prev.svg" alt="">
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="right carousel-control" href="#mgSlider" role="button" data-slide="next">
-                                <img src="assets/images/slider_arrow_next.svg" alt="">
+                            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                                <img src="assets/images/carousel_arrow_next.svg" alt="">
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
@@ -190,12 +169,18 @@
                 </div>
             </div>
         </section>
-        <section class="team" id="two">
+        <section id="team">
             <div class="container">
-                <h3>Das Team</h3>
                 <div class="row">
                     <div class="col-md-12">
-                        <figure><img src="assets/images/team_2x320px.jpg" alt="" class="img-responsive img-center"></figure>
+                        <h2>Das Team</h2>
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="assets/images/team_320.jpg, assets/images/team_320@2x.jpg 2x">
+                            <source media="(max-width: 640px)" srcset="assets/images/team_640.jpg, assets/images/team_640@2x.jpg 2x">
+                            <source media="(max-width: 800px)" srcset="assets/images/team_800.jpg, assets/images/team_800@2x.jpg 2x">
+                            <source srcset="assets/images/team.jpg, assets/images/team@2x.jpg 2x">
+                            <img src="assets/images/team.jpg" class="img-responsive img-center" alt="Marcus Grunert">
+                        </picture>
                     </div>
                 </div>
                 <div class="row">
@@ -210,18 +195,21 @@
                     <div class="col-md-6">
                         <p>
                             Der Patientenservice liegt uns sehr am Herzen. Wir sind immer
-                            bestrebt, die besten Lösungen für Ihre Anliegen zu finden. <br>
+                            bestrebt, die besten Lösungen für Ihre Anliegen zu finden.<br>
                             <em>Für Fragen und Wünsche haben wir stets ein off enes Ohr.</em>
                         </p>
                     </div>
                 </div>
-
             </div>
-
         </section>
-        <section class="marcus">
+        <section id="marcus">
             <div class="container">
-                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-md-6">
                         <picture>
                             <source media="(max-width: 320px)" srcset="assets/images/marcus_grunert_320.jpg, assets/images/marcus_grunert_320@2x.jpg 2x">
@@ -232,225 +220,222 @@
                         </picture>
                     </div>
                     <div class="col-md-6">
-                        <div class="row">
-                                <h4 class="arrow"> Marcus Grunert</h4>
-                                <table>
-                                    <tr>
-                                        <td><strong>1996 – 2003</strong></td>
-                                        <td>Studium in Göttingen</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>2003 – 2004</strong></td>
-                                        <td>raktisches Jahr im Helios Erfurt</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>2004 – 2005</strong></td>
-                                        <td>ssistenzarzt im Helios Schkeuditz</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>2005 – 2010</strong></td>
-                                        <td>Facharztausbildung in der Ilm-Kreis-Klinik Arnstadt</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>08/2008</strong></td>
-                                        <td>Zusatzbezeichnung Notfallmedizin</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>09/2010</strong></td>
-                                        <td>Facharzt für Innere Medizin</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>seit 01/2011</strong></td>
-                                        <td>Niederlassung als hausärztlicher Internist in Arnstadt</td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
+                        <h4><span class="arrow"></span> Marcus Grunert</h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>1996 – 2003</strong></td>
+                                    <td>Studium in Göttingen</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2003 – 2004</strong></td>
+                                    <td>raktisches Jahr im Helios Erfurt</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2004 – 2005</strong></td>
+                                    <td>ssistenzarzt im Helios Schkeuditz</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2005 – 2010</strong></td>
+                                    <td>Facharztausbildung in der Ilm-Kreis-Klinik Arnstadt</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>08/2008</strong></td>
+                                    <td>Zusatzbezeichnung Notfallmedizin</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>09/2010</strong></td>
+                                    <td>Facharzt für Innere Medizin</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>seit 01/2011</strong></td>
+                                    <td>Niederlassung als hausärztlicher Internist in Arnstadt</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-
-        </section>
-
-        <section>
-            <div class="container-fluid member">
-                <div class="container">
-                    <hr>
-                    <div class="col-md-4 text-center">
-                        <figure><img src="assets/images/members/marlis_sommerfeld_2x.jpg" class="img-responsive img-center" alt=""></figure>
-                       <h4><span class="arrow"></span><strong> Marlis Sommerfeld</strong></h4>
-                        <p>Med. Fachangestellte</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <figure><img src="assets/images/members/annett_weidisch_2x.jpg" class="img-responsive img-center" alt=""></figure>
-                        <h4><span class="arrow"></span><strong> Annett Weidisch</strong></h4>
-                        <p>Onkologische Fachschwester, <br>
-                            Diabetesberaterin DDG</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <figure><img src="assets/images/members/tommy_keyssner_2x.jpg" class="img-responsive img-center" alt=""></figure>
-                        <h4><span class="arrow"></span><strong> Tommy Keyssner</strong></h4>
-                        <p>Med. Fachangestellter</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="praxis-leistungen" id="three">
-                <div class="container">
-                    <h3>Die Praxisleistungen</h3>
-                    <div class="row">
-                        <div class="col-md-4">
-                                <h5>Vorsorge- und
-                                    Gesundheitsuntersuchungen</h5>
-                            <p>
-                                Mit unseren Vorsorgeuntersuchungen
-                                können wir helfen, Krankheiten früh
-                                zu erkennen und zu behandeln.
-                                Angebotene Vorsorgeuntersuchungen
-                                unserer Praxis sind: Gesundheits-
-                                Check, Krebsvorsorge, Herz- und
-                                Kreislaufuntersuchungen, Fitness-
-                                Check, Hautkrebsvorsorge, Impfungen,
-                                Jugendgesundheitsuntersuchungen (J1).
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                                <h5>Gesundheitsuntersuchung
-                                    »Check-up 35«</h5>
-                            <p>
-                                Körperliche Untersuchung, Blutanalyse
-                                und Beratung hinsichtlich Ihrer
-                                individuellen Gesundheitsrisiken, alle 2
-                                Jahre ab dem 35. Lebensjahr.
-                                Bei einer Gesundheitsuntersuchung
-                                bringen Sie bitte Ihren Impfausweis mit.
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                                <h5>Krebsvorsorge</h5>
-                            <p>
-                               <strong>Darmkrebs:</strong> Test auf Blut im Stuhl
-                                für alle Patientinnen/Patienten ab
-                                dem 50. Lebensjahr. Mit Beginn
-                                des 55. Lebensjahres Beratung und
-                                Überwachung zur Dickdarm-Spiegelung/
-                                Koloskopie.
-                                Prostatakrebs: Untersuchung 1x
-                                jährlich ab dem 45. Lebensjahr
-                            </p>
-                            <p>
-                                <strong>Prostatakrebs:</strong> Untersuchung 1x
-                                jährlich ab dem 45. Lebensjahr.
-                            </p>
-                        </div>
+        <section>
+             <div class="container">
+                 <div class="row">
+                    <div class="col-md-4 text-center">
+                        <figure><img src="assets/images/members/marlis_sommerfeld_2x.jpg" class="img-responsive img-center" alt=""></figure>
+                        <h4><span class="arrow"></span> <strong>Marlis Sommerfeld</strong></h4>
+                        <p>Med. Fachangestellte</p>
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-4">
-                                <h5>Hautkrebsvorsorge</h5>
-                            <p>
-                                Anspruchsberechtigt ist jeder
-                                Versicherte ab dem 35. Lebensjahr.
-                                Die Untersuchung sollte alle 2
-                                Jahre erfolgen. Hauptanliegen ist,
-                                Hautkrebserkrankungen frühzeitig
-                                zu erkennen und zu behandeln.
-                                Außerdem soll die Sensibilität gegenüber
-                                hautschädlichen Verhaltensweisen
-                                erhöht werden.
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                                <h5>Impfen</h5>
-                            <p>
-                                Lassen Sie Ihren Impfausweis in
-                                der Praxis prüfen. Notwendige
-                                Auff rischungen können wir dann sofort
-                                vornehmen. Impfungen gehören zu
-                                den wirksamsten und wichtigsten
-                                Maßnahmen auf dem Gebiet der
-                                Medizin. Unmittelbares Ziel ist es,
-                                den Geimpften vor einer Krankheit zu
-                                schützen.
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                                <h5>Reiseberatungen</h5>
-                            <p>
-                                Wir sind Reiseweltmeister. Unter
-                                Reisemedizin versteht man den
-                                Bereich der Medizin, der sich mit
-                                Vorsorge, Diagnostik und Therapie von
-                                Reisekrankheiten befasst. Im Idealfall
-                                fi ndet eine reisemedizinische Beratung
-                                6 – 8 Wochen vor Ihrer Abreise statt, um
-                                genügend Zeit für die erforderlichen
-                                Reiseimpfungen einplanen zu können.
-                            </p>
-                        </div>
+                    <div class="col-md-4 text-center">
+                        <figure><img src="assets/images/members/annett_weidisch_2x.jpg" class="img-responsive img-center" alt=""></figure>
+                        <h4><span class="arrow"></span> <strong>Annett Weidisch</strong></h4>
+                        <p>Onkologische Fachschwester, Diabetesberaterin DDG</p>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                                <h5>
-                                    Belastungs-EKG + Langzeit-EKG
-                                    + Langzeit-Blutdruck
-                                </h5>
-                            <p>
-                                Das EKG gehört zur grundlegenden
-                                Diagnostik in der Inneren Medizin. Es ist
-                                hilfreich zur Erkennung von Rhythmus-,
-                                Durchblutungsstörungen und
-                                Herzvergrößerungen. Das Langzeit-EkG
-                                über 24 Stunden dient hauptsächlich
-                                der Erkennung und Quantifi zierung
-                                von Herzrhythmusstörungen
-                                oder Symptomen, die von
-                                Rhythmusstörungen bedingt sein
-                                können. Dazu zählen Herzrasen,
-                                Herzstolpern, Schwindel- oder
-                                Ohnmachtsanfälle.
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                                <h5>
-                                    Abdomen- und Schilddrüsen-
-                                    Sonographie
-                                </h5>
-                            <p>
-                                Ultraschalluntersuchungen geben
-                                frühzeitig Aufschluss über den Zustand
-                                der inneren Organe. Die Untersuchung
-                                ist eine schmerzfreie Methode, dabei
-                                werden die Strukturen des Körpers
-                                durch Ultraschallwellen bildlich
-                                dargestellt.
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <h5>
-                                DMP mit Diabetiker- und
-                                Hypertonieschulungen
-                            </h5>
-                            <p>
-                                Patienten, die unter chronischen
-                                Krankheiten leiden, sollen durch eine
-                                gut abgestimmte, kontinuierliche
-                                Betreuung und Behandlung vor
-                                Folgeerkrankungen bewahrt werden. In
-                                diesem Rahmen fi nden auch Diabetesund
-                                Hypertonieschulungen statt, um
-                                das Verständnis der Patienten für Ihre
-                                Erkrankungen zu schärfen.
-                            </p>
-                        </div>
+                    <div class="col-md-4 text-center">
+                        <figure><img src="assets/images/members/tommy_keyssner_2x.jpg" class="img-responsive img-center" alt=""></figure>
+                        <h4><span class="arrow"></span> <strong>Tommy Keyssner</strong></h4>
+                        <p>Med. Fachangestellter</p>
                     </div>
                 </div>
+             </div>
         </section>
-        <section id="four">
-            <div class="container kontact">
-                <h3>Kontakt</h3>
+        <section id="leistungen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Die Praxisleistungen</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Vorsorge- und Gesundheitsuntersuchungen</h5>
+                        <p>
+                            Mit unseren Vorsorgeuntersuchungen
+                            können wir helfen, Krankheiten früh
+                            zu erkennen und zu behandeln.
+                            Angebotene Vorsorgeuntersuchungen
+                            unserer Praxis sind: Gesundheits-
+                            Check, Krebsvorsorge, Herz- und
+                            Kreislaufuntersuchungen, Fitness-
+                            Check, Hautkrebsvorsorge, Impfungen,
+                            Jugendgesundheitsuntersuchungen (J1).
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Gesundheitsuntersuchung »Check-up 35«</h5>
+                        <p>
+                            Körperliche Untersuchung, Blutanalyse
+                            und Beratung hinsichtlich Ihrer
+                            individuellen Gesundheitsrisiken, alle 2
+                            Jahre ab dem 35. Lebensjahr.
+                            Bei einer Gesundheitsuntersuchung
+                            bringen Sie bitte Ihren Impfausweis mit.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Krebsvorsorge</h5>
+                        <p>
+                           <strong>Darmkrebs:</strong> Test auf Blut im Stuhl
+                            für alle Patientinnen/Patienten ab
+                            dem 50. Lebensjahr. Mit Beginn
+                            des 55. Lebensjahres Beratung und
+                            Überwachung zur Dickdarm-Spiegelung/
+                            Koloskopie.
+                            Prostatakrebs: Untersuchung 1x
+                            jährlich ab dem 45. Lebensjahr
+                        </p>
+                        <p>
+                            <strong>Prostatakrebs:</strong> Untersuchung 1x
+                            jährlich ab dem 45. Lebensjahr.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Hautkrebsvorsorge</h5>
+                        <p>
+                            Anspruchsberechtigt ist jeder
+                            Versicherte ab dem 35. Lebensjahr.
+                            Die Untersuchung sollte alle 2
+                            Jahre erfolgen. Hauptanliegen ist,
+                            Hautkrebserkrankungen frühzeitig
+                            zu erkennen und zu behandeln.
+                            Außerdem soll die Sensibilität gegenüber
+                            hautschädlichen Verhaltensweisen
+                            erhöht werden.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Impfen</h5>
+                        <p>
+                            Lassen Sie Ihren Impfausweis in
+                            der Praxis prüfen. Notwendige
+                            Auff rischungen können wir dann sofort
+                            vornehmen. Impfungen gehören zu
+                            den wirksamsten und wichtigsten
+                            Maßnahmen auf dem Gebiet der
+                            Medizin. Unmittelbares Ziel ist es,
+                            den Geimpften vor einer Krankheit zu
+                            schützen.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Reiseberatungen</h5>
+                        <p>
+                            Wir sind Reiseweltmeister. Unter
+                            Reisemedizin versteht man den
+                            Bereich der Medizin, der sich mit
+                            Vorsorge, Diagnostik und Therapie von
+                            Reisekrankheiten befasst. Im Idealfall
+                            fi ndet eine reisemedizinische Beratung
+                            6 – 8 Wochen vor Ihrer Abreise statt, um
+                            genügend Zeit für die erforderlichen
+                            Reiseimpfungen einplanen zu können.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Belastungs-EKG + Langzeit-EKG + Langzeit-Blutdruck</h5>
+                        <p>
+                            Das EKG gehört zur grundlegenden
+                            Diagnostik in der Inneren Medizin. Es ist
+                            hilfreich zur Erkennung von Rhythmus-,
+                            Durchblutungsstörungen und
+                            Herzvergrößerungen. Das Langzeit-EkG
+                            über 24 Stunden dient hauptsächlich
+                            der Erkennung und Quantifi zierung
+                            von Herzrhythmusstörungen
+                            oder Symptomen, die von
+                            Rhythmusstörungen bedingt sein
+                            können. Dazu zählen Herzrasen,
+                            Herzstolpern, Schwindel- oder
+                            Ohnmachtsanfälle.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Abdomen- und Schilddrüsen-Sonographie</h5>
+                        <p>
+                            Ultraschalluntersuchungen geben
+                            frühzeitig Aufschluss über den Zustand
+                            der inneren Organe. Die Untersuchung
+                            ist eine schmerzfreie Methode, dabei
+                            werden die Strukturen des Körpers
+                            durch Ultraschallwellen bildlich
+                            dargestellt.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>DMP mit Diabetiker- und Hypertonieschulungen</h5>
+                        <p>
+                            Patienten, die unter chronischen
+                            Krankheiten leiden, sollen durch eine
+                            gut abgestimmte, kontinuierliche
+                            Betreuung und Behandlung vor
+                            Folgeerkrankungen bewahrt werden. In
+                            diesem Rahmen fi nden auch Diabetesund
+                            Hypertonieschulungen statt, um
+                            das Verständnis der Patienten für Ihre
+                            Erkrankungen zu schärfen.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="kontakt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Kontakt</h2>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-4 text-center border-right">
-                        <img src="assets/images/icon_praxis.svg" height="64" class="img-center"  alt="">
+                        <img src="assets/images/icon_praxis.svg" height="64" class="img-center" alt="">
                         <h4>Praxis</h4>
                         <div>
                             <strong>Marcus Grunert</strong> <br>
@@ -458,7 +443,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
-                        <img src="assets/images/icon_telefon.svg" height="64"  class="img-center"  alt="">
+                        <img src="assets/images/icon_telefon.svg" height="64"  class="img-center" alt="">
                         <h4>Telefon</h4>
                         <p>03628 / 929 38 73</p>
                     </div>
@@ -470,7 +455,6 @@
                 </div>
                 <hr>
             </div>
-
             <div class="container sprechzeit">
                 <div class="row">
                     <div class="col-md-4">
@@ -496,21 +480,21 @@
                             08.30 – 10.00 Uhr (außer Do 14:00 – 15:30 Uhr) </strong>. Zu den übrigen Sprechzeiten wird
                             eine vorherige Terminvereinbarung erbeten.
                         </p>
-
-                        <p>Außerhalb unserer Sprechzeiten erreichen Sie den kassenärztlichen Notdienst unter
-                            116117. In dringenden Notfällen wählen Sie bitte die 112.</p>
+                        <p>
+                            Außerhalb unserer Sprechzeiten erreichen Sie den kassenärztlichen Notdienst unter
+                            116117. In dringenden Notfällen wählen Sie bitte die 112.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
     </article>
-    <!--Footer-->
     <footer>
         <div class="container-fluid footer-info">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="" title="">
+                        <a href="./" title="">
                             <img src="assets/images/logo_footer.svg" alt="">
                         </a>
                     </div>
@@ -525,5 +509,5 @@
 </body>
 <script language="javascript" type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
 <script language="javascript" type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<script language="javascript" type="text/javascript" src="assets/scripts/MG.js"></script>
+<script language="javascript" type="text/javascript" src="assets/scripts/custom.js"></script>
 </html>
