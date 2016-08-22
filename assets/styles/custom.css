@@ -63,20 +63,12 @@ nav ul a {
     border-color: white;
 }
 .navbar-nav > li > a {
-    margin-top: 12px;
+    margin-top: 27px;
     margin-bottom: -20px;
     padding-top: 42px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
-footer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-}
-footer a {
-    color: white;
-    text-decoration: none !important;
-    font-size: 20px;
-}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: white;
 }
@@ -85,17 +77,16 @@ footer a {
     margin-bottom: -35px;
 }
 .navbar-brand > img {
-    margin-top: 25px;
+    margin-top: 23px !important;
 }
-
+.logo {
+    margin-top: 23px;
+}
 /*Haupt Seite*/
 
-
-.hauptseite-bg {
-    background-image: url("../images/background/mg_startbild@2x.jpg"); width: 100%; min-height: 500px; max-height: 600px;
-}
 .header-bild {
     background-color: #FCF5F2;
+    color: white;
 }
 .header-bild h5 {
     color: #58585a;
@@ -104,9 +95,6 @@ footer a {
     background-color: #00acd6;
     width: 265px;
     margin-bottom: 5px;
-}
-.header-bild p{
-    color: white;
 }
 .vertretung-tag {
     color: black !important;
@@ -148,60 +136,45 @@ footer a {
     z-index: 1;
 }
 .table1 {
-    width: 400px !important;
+    max-width: 400px;
     height: 128px;
 }
 .table2 {
-    width: 400px !important;
+    max-width: 400px;
     height: 296px;
 }
-section p {
-    margin-bottom: 25px;
-}
-
 .img-center {
     margin: 0 auto;
     width: 100%;
 }
-.col-md-6 p {
-    margin-bottom: 22px;
-}
-.marcusBild {
-    width: 400px;
-    height: 300px;
-}
 .arrow {
     background-image: url(../images/bullet_arrow.svg);
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position : left 2%;
     background-size: 11px 15px;
     padding-left: 1.6em;
     margin-bottom: 25px;
     color: #58585a;
     font-weight: bold;
 }
-.marcus td {
-    width: 500px;
-}
 .marcus span {
     font-weight: bold;
     margin-right: 20px;
 }
-.member img {
-    width: 80%;
-    height: 60%;
+.marcus table {
+    width: 135%;
 }
-.member .arrow {
-    margin-bottom: 2px !important;
-    margin-left: 3%;
+.member img {
+    margin-bottom: 55px;
+    padding-right: 7%;
+}
+.member h4 {
     text-transform: uppercase;
 }
-.member p{
-    margin-left: 6%;
-    width: 230px;
+.team .container {
+    margin-bottom: 0 !important;
 }
 .team p {
-    margin-bottom: 60px;
     margin-top: 50px;
     padding-left: 1.6em;
 }
@@ -229,18 +202,18 @@ section p {
     color: #58585a;
     border-bottom: 1px solid #D6D6D7;
 }
-.row .col-md-4 img {
+.praxis-leistungen  img {
     width: 50px;
     float: right;
     margin-bottom: 25px;
 
 }
-.row .col-md-8 p {
+.praxis-leistungen  p {
     font-weight: bold;
     color: #58585a;
     margin-bottom: 30px;
 }
-.row .col-md-4 hr {
+.praxis-leistungen  hr {
     width: 100%;
     color: #B6A8A8;
     border: none;
@@ -250,37 +223,11 @@ section p {
 .short-schrift-praxis {
     margin-top: 18px;
 }
-.praxis {
-    background-image: url(../images/icon_praxis.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 40px 55px;
-    padding-top: 4em;
-    padding-left: -0.4em;
-    margin-bottom: 28px;
-}
-.telefon {
-    background-image: url(../images/icon_telefon.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 55px 55px;
-    padding-top: 4em;
-    padding-left: -0.4em;
-    margin-bottom: 45px;
-}
-.email {
-    background-image: url(../images/icon_email.svg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 55px 55px;
-    padding-top: 4em;
-    padding-left: -0.4em;
-    margin-bottom: 45px;
-}
 
 .kontact h4 {
     text-align: center;
     color: #00acd6;
+    margin-bottom: 35px;
 }
 .kontact p {
     font-size: 22px;
@@ -290,7 +237,7 @@ section p {
 }
 .kontact .border-left {
     border-left: 1px solid #E4E4E6;
-    height: 175px;
+    height: 150px;
 }
 .sprechzeit p {
     font-weight: normal !important;
@@ -305,8 +252,9 @@ section p {
 .stoerer {
     position: absolute;
     z-index: 1;
-    right: 40px;
-    top: -45px;
+    right: 3%;
+    top: -8%;
+    width: 15%;
 }
 
 section #mgSlider {
@@ -338,6 +286,15 @@ section #mgSlider {
 .footer-info {
     background-color: #00acd6;
 }
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+footer a {
+    color: white;
+    text-decoration: none !important;
+    font-size: 20px;
+}
 footer h4 {
     color: white;
     margin-top: 30px !important;
@@ -350,4 +307,28 @@ footer img {
     margin-top: 30px;
 }
 
-
+/**** Responsive******/
+@media only screen and (max-device-width : 768px) {
+    .logo {
+        margin-top: -8px !important;
+        width: 40px;
+    }
+    .table_phone {
+        position: relative;
+        margin-bottom: 72px;
+    }
+    .table1 {
+        width: 100% !important;
+    }
+    .table2 {
+        width: 100% !important;
+    }
+    .member p {
+        margin-left: 27%;
+    }
+}
+@media only screen and (max-device-width : 320px) {
+    .member p {
+        margin-left: 10% !important;
+    }
+}

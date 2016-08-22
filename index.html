@@ -2,6 +2,7 @@
 <html lang="de" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Praxis Marcus Grunert – Hausarzt / Internist">
     <meta name="description" content="Die Arztpraxis Marcus Grunert befindet sich im Herzen von Arnstadt mit dem Hauptfokus auf der hausärztlich-internistischen Versorgung.">
     <title>Praxis Marcus Grunert</title>
@@ -21,16 +22,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="" title="Marcus Grunert"><img src="assets/images/mg_logo.svg" alt=""></a>
+                <a class="navbar-brand" href="" title="Marcus Grunert">
+                    <picture>
+                        <source srcset="assets/images/logo_header_mobil.svg" media="(max-width: 768px)" class="small-logo">
+                        <img src="assets/images/mg_logo.svg" alt="" class="logo">
+                    </picture>
+
+                </a>
             </div>
-            <div class="collapse navbar-collapse pull-right" id="navbar-collapse">
+            <div class="collapse navbar-collapse pull-right sidebar" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="">Praxis</a></li>
-                        <li><a href="">Team</a></li>
-                        <li><a href="">Leistungen</a></li>
-                        <li><a href="">Kontakt</a></li>
+                        <li><a href="http://localhost:63342/MG/index.html/#one">Praxis</a></li>
+                        <li><a href="http://localhost:63342/MG/index.html/#two">Team</a></li>
+                        <li><a href="http://localhost:63342/MG/index.html/#three">Leistungen</a></li>
+                        <li><a href="http://localhost:63342/MG/index.html/#four">Kontakt</a></li>
                     </ul>
-                </div>
+            </div>
         </div>
     </nav>
     <!--Content-->
@@ -102,7 +109,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="one">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -138,13 +145,13 @@
                         <div id="mgSlider" class="carousel slide" data-ride="carousel">
                             <img src="assets/images/stoerer.svg" class="stoerer" alt="Störer">
                             <ol class="carousel-indicators">
-                                <li data-target="mgSlider" data-slide-to="0" class="active"></li>
-                                <li data-target="mgSlider" data-slide-to="1"></li>
-                                <li data-target="mgSlider" data-slide-to="2"></li>
-                                <li data-target="mgSlider" data-slide-to="3"></li>
-                                <li data-target="mgSlider" data-slide-to="4"></li>
-                                <li data-target="mgSlider" data-slide-to="5"></li>
-                                <li data-target="mgSlider" data-slide-to="6"></li>
+                                <li data-target="#mgSlider" data-slide-to="0" class="active"></li>
+                                <li data-target="#mgSlider" data-slide-to="1"></li>
+                                <li data-target="#mgSlider" data-slide-to="2"></li>
+                                <li data-target="#mgSlider" data-slide-to="3"></li>
+                                <li data-target="#mgSlider" data-slide-to="4"></li>
+                                <li data-target="#mgSlider" data-slide-to="5"></li>
+                                <li data-target="#mgSlider" data-slide-to="6"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
@@ -183,7 +190,7 @@
                 </div>
             </div>
         </section>
-        <section class="team">
+        <section class="team" id="two">
             <div class="container">
                 <h3>Das Team</h3>
                 <div class="row">
@@ -256,7 +263,6 @@
                                         <td><strong>seit 01/2011</strong></td>
                                         <td>Niederlassung als hausärztlicher Internist in Arnstadt</td>
                                     </tr>
-
                                 </table>
                             </div>
                         </div>
@@ -270,25 +276,25 @@
                     <hr>
                     <div class="col-md-4 text-center">
                         <figure><img src="assets/images/members/marlis_sommerfeld_2x.jpg" class="img-responsive img-center" alt=""></figure>
-                        <p class="arrow">Marlis Sommerfeld</p>
+                       <h4><span class="arrow"></span><strong> Marlis Sommerfeld</strong></h4>
                         <p>Med. Fachangestellte</p>
                     </div>
                     <div class="col-md-4 text-center">
-                        <figure><img src="assets/images/members/annett_weidisch_2x.jpg" alt=""></figure>
-                        <p class="arrow">Annett Weidisch</p>
+                        <figure><img src="assets/images/members/annett_weidisch_2x.jpg" class="img-responsive img-center" alt=""></figure>
+                        <h4><span class="arrow"></span><strong> Annett Weidisch</strong></h4>
                         <p>Onkologische Fachschwester, <br>
                             Diabetesberaterin DDG</p>
                     </div>
                     <div class="col-md-4 text-center">
-                        <figure><img src="assets/images/members/tommy_keyssner_2x.jpg" alt=""></figure>
-                        <p class="arrow">Tommy Keyssner</p>
+                        <figure><img src="assets/images/members/tommy_keyssner_2x.jpg" class="img-responsive img-center" alt=""></figure>
+                        <h4><span class="arrow"></span><strong> Tommy Keyssner</strong></h4>
                         <p>Med. Fachangestellter</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="praxis-leistungen">
+        <section class="praxis-leistungen" id="three">
                 <div class="container">
                     <h3>Die Praxisleistungen</h3>
                     <div class="row">
@@ -439,23 +445,26 @@
                     </div>
                 </div>
         </section>
-        <section>
+        <section id="four">
             <div class="container kontact">
                 <h3>Kontakt</h3>
                 <div class="row">
                     <div class="col-md-4 text-center border-right">
-                        <h4 class="praxis">Praxis</h4>
+                        <img src="assets/images/icon_praxis.svg" height="64" class="img-center"  alt="">
+                        <h4>Praxis</h4>
                         <div>
                             <strong>Marcus Grunert</strong> <br>
                             Schloßstraße 5, 99310 Arnstadt
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
-                        <h4 class="telefon">Telefon</h4>
+                        <img src="assets/images/icon_telefon.svg" height="64"  class="img-center"  alt="">
+                        <h4>Telefon</h4>
                         <p>03628 / 929 38 73</p>
                     </div>
                     <div class="col-md-4 text-center border-left">
-                        <h4 class="email">Email</h4>
+                        <img src="assets/images/icon_email.svg" height="64" class="img-center" alt="">
+                        <h4>Email</h4>
                         <p>info@praxis-grunert.de</p>
                     </div>
                 </div>
@@ -516,4 +525,5 @@
 </body>
 <script language="javascript" type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
 <script language="javascript" type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script language="javascript" type="text/javascript" src="assets/scripts/MG.js"></script>
 </html>
