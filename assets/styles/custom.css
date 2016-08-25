@@ -335,6 +335,9 @@ body.imprint h2 {
 body.imprint p {
     margin-bottom: 30px;
 }
+body.imprint footer {
+    margin-top: 30px;
+}
 
 /* Footer */
 footer {
