@@ -54,7 +54,7 @@ em {
     font-weight: bold;
 }
 hr {
-    color: #cfd1d2;
+    color: #babcbd;
 }
 .img-center {
     margin: 0 auto;
@@ -216,13 +216,17 @@ nav.navbar-default .navbar-nav li:last-child > a {
 
 /* Team */
 #team {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #team img {
     margin-bottom: 40px;
 }
 
 /* Marcus Grunert */
+#marcus hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 #marcus table > tbody > tr > td {
     padding-top: 3px;
     padding-bottom: 3px;
