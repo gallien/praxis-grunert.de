@@ -45,6 +45,16 @@ h5 {
     font-weight: bold;
     color: #00acd6;
 }
+a {
+    color: #58585a;
+    text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+    color: #929395;
+    text-decoration: none;
+}
 em {
     color: #00acd6;
     font-style: normal;
@@ -308,16 +318,6 @@ nav.navbar-default .navbar-nav li:last-child > a {
     padding-top: 18px;
     font-size: 22px;
     line-height: 22px;
-}
-#kontakt a {
-    color: #58585a;
-    text-decoration: none;
-}
-#kontakt a:hover,
-#kontakt a:focus,
-#kontakt a:active {
-    color: #929395;
-    text-decoration: none;
 }
 #kontakt .col-sm-4:nth-of-type(2) {
     border-right: 1px solid #cfd1d2;
