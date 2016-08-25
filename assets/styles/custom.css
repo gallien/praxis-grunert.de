@@ -225,9 +225,9 @@ nav.navbar-default .navbar-nav li:last-child > a {
     margin-bottom: 40px;
 }
 #marcus table > tbody > tr > td {
-    line-height: 28.85px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    line-height: 24.85px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     vertical-align: top;
 }
 #marcus table > tbody > tr > td:nth-of-type(1) {
