@@ -372,8 +372,8 @@ footer a {
         max-width: 100%;
         width: 100%;
     }
-    
-    #praxis .col-sm-6:nth-last-of-type(1) p {
+
+    #praxis .col-sm-6:nth-of-type(1) p {
         margin-bottom: 47.7px;
     }
 
