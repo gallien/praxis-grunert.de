@@ -336,7 +336,7 @@ body.imprint p {
     margin-bottom: 30px;
 }
 body.imprint footer {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 /* Footer */
@@ -351,7 +351,7 @@ footer img {
     margin-top: 40px;
 }
 footer p {
-    margin-top: 60px;
+    margin-top: 40px;
     color: #00323c;
 }
 footer a {
