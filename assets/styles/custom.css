@@ -272,10 +272,10 @@ nav.navbar-default .navbar-nav li:last-child > a {
 }
 #leistungen h5 > span.check {
     margin-right: 10px;
-    width: 50px;
-    height: 40px;
+    width: 45px;
+    height: 44px;
     background: url('../images/icon_check.svg') no-repeat left;
-    background-size: 40px 40px;
+    background-size: 35px 35px;
 }
 #leistungen .col-md-4 {
     margin-bottom: 30px;
