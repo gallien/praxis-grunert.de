@@ -200,6 +200,8 @@ nav.navbar-default .navbar-nav li:last-child > a {
     border: inherit;
 }
 .carousel-indicators .active {
+    height: 10px;
+    width: 10px;
     background-color: #00acd6;
 }
 .stoerer {
