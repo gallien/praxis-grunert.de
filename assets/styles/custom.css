@@ -91,6 +91,7 @@ nav .navbar-brand img {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 nav.navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
@@ -98,7 +99,7 @@ nav.navbar-default {
 nav.navbar-default ul {
     margin-top: 50px;
 }
-nav.navbar-default li > a {
+nav.navbar-default .navbar-nav li > a {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 16px;
