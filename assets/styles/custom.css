@@ -196,11 +196,12 @@ nav.navbar-default .navbar-nav li:last-child > a {
     margin-bottom: -53px;
 }
 .carousel-indicators li {
+    margin: 1px 2px;
     background-color: #e6e5e1;
     border: inherit;
 }
 .carousel-indicators .active {
-    margin: 1px;
+    margin: 1px 2px;
     height: 10px;
     width: 10px;
     background-color: #00acd6;
