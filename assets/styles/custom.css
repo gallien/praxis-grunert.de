@@ -360,6 +360,12 @@ footer a {
     text-decoration: none !important;
     text-transform: uppercase;
 }
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 991px) {
