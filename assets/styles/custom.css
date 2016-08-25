@@ -123,6 +123,9 @@ nav.navbar-default .navbar-nav li:last-child > a {
     background-color: #fcf7f3;
     color: #ffffff;
 }
+#header p {
+    margin-bottom: 0;
+}
 #header h4 {
     margin: 0 0 20px 0;
     font-family: 'Montserrat', sans-serif;
@@ -154,10 +157,10 @@ nav.navbar-default .navbar-nav li:last-child > a {
     margin-bottom: 35px;
 }
 #header table > tbody > tr {
-    border-top: 3px solid #26b2d9;
+    border-top: 2px solid #ffffff;
 }
 #header table > tbody > tr:last-child {
-    border-bottom: 3px solid #26b2d9;
+    border-bottom: 2px solid #ffffff;
 }
 #header table > tbody > tr > td {
     padding-top: 3px;
