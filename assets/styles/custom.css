@@ -125,6 +125,7 @@ nav.navbar-default .navbar-nav li:last-child > a {
 }
 #header h4 {
     margin: 0 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #00323c;
