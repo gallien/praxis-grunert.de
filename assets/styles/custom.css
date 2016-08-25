@@ -264,8 +264,9 @@ nav.navbar-default .navbar-nav li:last-child > a {
     align-items: center;
     margin-bottom: 20px;
     padding-bottom: 15px;
+    font-size: 16px;
     font-weight: bold;
-    line-height: 125%;
+    line-height: 22px;
     color: #58585a;
     border-bottom: 1px solid #D6D6D7;
 }
