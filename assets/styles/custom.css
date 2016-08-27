@@ -123,6 +123,13 @@ nav.navbar-default .navbar-nav li > a:active {
 nav.navbar-default .navbar-nav li:last-child > a {
     padding-right: 0;
 }
+nav.navbar-default .navbar-toggle {
+    border: medium none;
+}
+nav.navbar-default .navbar-toggle:focus,
+nav.navbar-default .navbar-toggle:hover {
+    background-color: inherit;
+}
 
 /* Header Image */
 #header {
@@ -150,6 +157,8 @@ nav.navbar-default .navbar-nav li:last-child > a {
 }
 #header div.header-box-wrapper {
     position: absolute;
+    top: 0;
+    left: 15px;
 }
 #header div.header-box {
     padding: 25px;
@@ -230,8 +239,11 @@ nav.navbar-default .navbar-nav li:last-child > a {
 }
 
 /* Marcus Grunert */
+#marcus .col-md-6 {
+    margin-bottom: 20px;
+}
 #marcus hr {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 #marcus table > tbody > tr > td {
@@ -247,7 +259,10 @@ nav.navbar-default .navbar-nav li:last-child > a {
 
 /* Employees */
 #employees {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+}
+#employees .col-sm-4 {
+    margin-bottom: 40px;
 }
 #employees img {
     margin-top: 20px;
@@ -388,9 +403,20 @@ footer a:active {
     nav.navbar-default ul {
         margin-top: 7px;
     }
+    nav.navbar-default .navbar-nav li > a {
+        text-align: right;
+    }
+    nav.navbar-default .navbar-nav li:last-child > a {
+        padding-right: 15px;
+    }
+    nav.navbar-default .navbar-collapse {
+        border: medium none;
+    }
 
     #header div.header-box-wrapper {
         position: relative;
+        top: auto;
+        left: auto;
     }
     #header div.header-box-1 {
         margin-top: 0;
@@ -402,6 +428,14 @@ footer a:active {
 
     #praxis .col-sm-6:nth-of-type(1) p {
         margin-bottom: 22.85px;
+    }
+
+    .stoerer {
+        display: none;
+    }
+
+    #employees img {
+        width: 80%;
     }
 
     #kontakt .col-icon p {
