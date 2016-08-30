@@ -299,7 +299,8 @@ nav.navbar-default .navbar-toggle:hover {
 }
 #leistungen h5 > span.check {
     margin-right: 10px;
-    width: 45px;
+    width: 35px;
+    min-width: 35px;
     height: 44px;
     background: url('../images/icon_check.svg') no-repeat left;
     background-size: 35px 35px;
