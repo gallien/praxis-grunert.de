@@ -2,6 +2,7 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    line-height: 24px;
     color: #58585a;
 }
 body {
@@ -84,6 +85,7 @@ hr {
 /* Navigation */
 nav {
     font-size: 16px;
+    line-height: 24px;
 }
 nav.navbar {
     margin-bottom: 0;
@@ -390,9 +392,13 @@ footer a:active {
     #header div.header-box-1 {
         margin-top: 10px;
     }
+
+    #marcus h4 {
+        margin-top: 48px;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     nav.navbar {
         min-height: 54px;
     }
@@ -427,7 +433,11 @@ footer a:active {
     }
 
     #praxis .col-sm-6:nth-of-type(1) p {
-        margin-bottom: 22.85px;
+        margin-bottom: 24px;
+    }
+
+    #team .col-md-6:nth-of-type(1) p {
+        margin-bottom: 24px;
     }
 
     .stoerer {
