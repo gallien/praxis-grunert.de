@@ -122,6 +122,7 @@ nav.navbar-default .navbar-nav > li > a {
 }
 nav.navbar-default .navbar-nav > li.active > a,
 nav.navbar-default .navbar-nav > li > a:hover,
+nav.navbar-default .navbar-nav > li > a:focus,
 nav.navbar-default .navbar-nav > li > a:active {
     color: #00acd6 !important;
 }
