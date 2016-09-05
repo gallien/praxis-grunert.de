@@ -111,7 +111,7 @@ nav.navbar-default {
 nav.navbar-default ul {
     margin-top: 50px;
 }
-nav.navbar-default .navbar-nav li > a {
+nav.navbar-default .navbar-nav > li > a {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 16px;
@@ -120,9 +120,9 @@ nav.navbar-default .navbar-nav li > a {
     color: #8f8779;
     letter-spacing: 1.1px;
 }
-nav.navbar-default .navbar-nav li.active > a,
-nav.navbar-default .navbar-nav li > a:hover,
-nav.navbar-default .navbar-nav li > a:active {
+nav.navbar-default .navbar-nav > li.active > a,
+nav.navbar-default .navbar-nav > li > a:hover,
+nav.navbar-default .navbar-nav > li > a:active {
     color: #00acd6 !important;
 }
 nav.navbar-default .navbar-nav li:last-child > a {
