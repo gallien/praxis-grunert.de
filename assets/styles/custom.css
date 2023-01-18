@@ -488,6 +488,10 @@ body.aaron-illu .media-heading {
     vertical-align: middle;
 }
 
+#aaron-illu-modal .modal-body p {
+    font-size: 15px;
+}
+
 #aaron-illu-modal button.close span.text {
     display: inline-block;
     margin-top: -7px;
