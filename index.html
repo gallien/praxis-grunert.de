@@ -7,9 +7,9 @@
     <meta name="robots" content="index,follow">
     <meta property="og:title" content="Praxis Marcus Grunert – Hausarzt / Internist">
     <meta property="og:description" content="Die Arztpraxis Marcus Grunert befindet sich im Herzen von Arnstadt mit dem Hauptfokus auf der hausärztlich-internistischen Versorgung.">
-    <meta property="og:image" content="http://www.praxis-grunert.de/assets/images/marcus_grunert_fb.jpg">
+    <meta property="og:image" content="https://www.praxis-grunert.de/assets/images/marcus_grunert_fb.jpg">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.praxis-grunert.de">
+    <meta property="og:url" content="https://www.praxis-grunert.de">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/custom.css">
@@ -542,8 +542,49 @@
             </div>
         </div>
     </footer>
-    <script language="javascript" type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
-    <script language="javascript" type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script language="javascript" type="text/javascript" src="assets/scripts/custom.js"></script>
+
+    <div id="aaron-illu-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header hidden-lg">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="text">Schließen</span> <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-6" style="background-color: #d9f0f6;">
+                                <div class="aaron-illu-image-wrapper"><img src="./assets/images/aaron_illu.jpg" class="img-responsive" alt="Aaron Illu"></div>
+                                <p class="text-center" style="margin-bottom: 20px;"><span class="label label-success">NEU</span></p>
+                                <h2>unser Smarter<br>Telefonassistent</h2>
+                            </div>
+                            <div class="col-lg-6">
+                                <button type="button" class="close visible-lg" data-dismiss="modal" aria-label="Close" style="margin-top: 10px; margin-bottom: 10px;">
+                                    <span class="text">Schließen</span> <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p>Liebe Patientin, lieber Patient,</p>
+                                <p>damit Sie uns künftig besser telefonisch erreichen können, haben wir unser Team um den digitalen Telefonassistenten Aaron verstärkt. Somit erreichen Sie uns jederzeit und können Aaron Ihr Anliegen mitteilen. Wir melden uns dann zeitnah per SMS oder per Rückruf.</p>
+                                <p style="margin-top: 20px; margin-bottom: 20px;"><a href="./aaron-illu.html" class="btn btn-primary">Mehr erfahren</a></p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            const dialogShown = sessionStorage.getItem('dialogShown')
+            if (! dialogShown) {
+                $('#aaron-illu-modal').modal('show');
+                sessionStorage.setItem('dialogShown', 1)
+            }
+        })
+    </script>
 </body>
 </html>

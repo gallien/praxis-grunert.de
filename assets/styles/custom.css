@@ -22,7 +22,7 @@ h2 {
     margin-bottom: 45px;
     font-size: 25px;
     font-weight: 300;
-    line-height: 50px;
+    line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -300,6 +300,119 @@ nav.navbar-default li > a:active {
 #kontakt hr {
     margin-top: 10px;
     margin-bottom: 35px;
+}
+
+/* Aaron Illu */
+.aaron-illu-image-wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d9f0f6;
+}
+
+.aaron-illu-image-wrapper img {
+    margin: 0 auto;
+}
+
+body.aaron-illu  h2 {
+    margin-top: 50px;
+}
+
+body.aaron-illu p {
+    margin-bottom: 30px;
+}
+
+body.aaron-illu .box
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #fbf7f3;
+}
+
+body.aaron-illu .media-left,
+body.aaron-illu .media>.pull-left {
+    padding-right: 20px;
+}
+
+body.aaron-illu .media-heading:first-child {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #707070;
+    font-weight: bold;
+    text-transform: none;
+}
+
+body.aaron-illu .media-heading {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+#aaron-illu-modal .modal-content {
+    border-radius: 0;
+}
+
+#aaron-illu-modal .modal-body {
+    padding: 0;
+}
+
+#aaron-illu-modal .modal-header {
+    border-bottom: 0;
+}
+
+#aaron-illu-modal button.close {
+    display: block;
+    float: none;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: right;
+    vertical-align: middle;
+}
+
+#aaron-illu-modal button.close span.text {
+    display: inline-block;
+    margin-top: -7px;
+    text-transform: uppercase;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+#aaron-illu-modal .btn {
+    background-color: #4cadde;
+    border-color: #4cadde;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+#aaron-illu-modal .btn:active,
+#aaron-illu-modal .btn:focus,
+#aaron-illu-modal .btn:hover {
+    opacity: 0.8;
+}
+
+#aaron-illu-modal .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#aaron-illu-modal .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#aaron-illu-modal .aaron-illu-image-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#aaron-illu-modal h2 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    #aaron-illu-modal h2 {
+        padding-bottom: 20px;
+    }
 }
 
 /* Impressum */
