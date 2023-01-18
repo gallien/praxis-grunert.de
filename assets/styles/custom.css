@@ -1,7 +1,76 @@
+/* Fonts */
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v15-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+    url('../fonts/open-sans-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v15-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v15-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+    url('../fonts/open-sans-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans-v15-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans-v15-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/open-sans-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans-v15-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v12-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Light'), local('Montserrat-Light'),
+    url('../fonts/montserrat-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v12-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('../fonts/montserrat-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v12-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v12-latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('../fonts/montserrat-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/montserrat-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/montserrat-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/montserrat-v12-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
 /* General */
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    line-height: 24px;
     color: #58585a;
 }
 body {
@@ -14,13 +83,10 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     color: #00acd6;
 }
-h1, h2 {
-    font-size: 25px;
-}
 h2 {
     margin-top: 1px;
     margin-bottom: 45px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 300;
     line-height: 30px;
     text-align: center;
@@ -29,7 +95,7 @@ h2 {
 }
 h2:after {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto 0;
     width: 75px;
     height: 3px;
     border-bottom: 2px solid #00acd6;
@@ -48,13 +114,26 @@ h5 {
     font-weight: bold;
     color: #00acd6;
 }
+a {
+    color: #58585a;
+    text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+    color: #929395;
+    text-decoration: none;
+}
+p {
+    margin-bottom: 24px;
+}
 em {
     color: #00acd6;
     font-style: normal;
     font-weight: bold;
 }
 hr {
-    color: #cfd1d2;
+    border-color: #c7c7c7;
 }
 .img-center {
     margin: 0 auto;
@@ -77,6 +156,7 @@ hr {
 /* Navigation */
 nav {
     font-size: 16px;
+    line-height: 24px;
 }
 nav.navbar {
     margin-bottom: 0;
@@ -91,6 +171,7 @@ nav .navbar-brand img {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 nav.navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
@@ -98,19 +179,30 @@ nav.navbar-default {
 nav.navbar-default ul {
     margin-top: 50px;
 }
-nav.navbar-default li > a {
+nav.navbar-default .navbar-nav > li > a {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 16px;
     font-weight: normal;
     text-transform: uppercase;
     color: #8f8779;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
 }
-nav.navbar-default li.active > a,
-nav.navbar-default li > a:hover,
-nav.navbar-default li > a:active {
+nav.navbar-default .navbar-nav > li.active > a,
+nav.navbar-default .navbar-nav > li > a:hover,
+nav.navbar-default .navbar-nav > li > a:focus,
+nav.navbar-default .navbar-nav > li > a:active {
     color: #00acd6 !important;
+}
+nav.navbar-default .navbar-nav li:last-child > a {
+    padding-right: 0;
+}
+nav.navbar-default .navbar-toggle {
+    border: medium none;
+}
+nav.navbar-default .navbar-toggle:focus,
+nav.navbar-default .navbar-toggle:hover {
+    background-color: inherit;
 }
 
 /* Header Image */
@@ -119,8 +211,12 @@ nav.navbar-default li > a:active {
     background-color: #fcf7f3;
     color: #ffffff;
 }
+#header p {
+    margin-bottom: 0;
+}
 #header h4 {
     margin: 0 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #00323c;
@@ -135,9 +231,11 @@ nav.navbar-default li > a:active {
 }
 #header div.header-box-wrapper {
     position: absolute;
+    top: 0;
+    left: 15px;
 }
 #header div.header-box {
-    padding: 30px 35px 25px 35px;
+    padding: 25px;
     max-width: 400px;
     background-color: #00acd6;
 }
@@ -149,10 +247,10 @@ nav.navbar-default li > a:active {
     margin-bottom: 35px;
 }
 #header table > tbody > tr {
-    border-top: 2px solid #26b2d9;
+    border-top: 1px solid #ffffff;
 }
 #header table > tbody > tr:last-child {
-    border-bottom: 2px solid #26b2d9;
+    border-bottom: 1px solid #ffffff;
 }
 #header table > tbody > tr > td {
     padding-top: 3px;
@@ -169,7 +267,7 @@ nav.navbar-default li > a:active {
 }
 
 #carousel {
-    margin-top: 50px;
+    margin-top: 35px;
     margin-bottom: 80px;
 }
 .carousel-control.left {
@@ -188,9 +286,14 @@ nav.navbar-default li > a:active {
     margin-bottom: -53px;
 }
 .carousel-indicators li {
-    border: 1px solid #00acd6;
+    margin: 1px 2px;
+    background-color: #e6e5e1;
+    border: inherit;
 }
 .carousel-indicators .active {
+    margin: 1px 2px;
+    height: 10px;
+    width: 10px;
     background-color: #00acd6;
 }
 .stoerer {
@@ -203,16 +306,27 @@ nav.navbar-default li > a:active {
 
 /* Team */
 #team {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #team img {
     margin-bottom: 40px;
 }
 
 /* Marcus Grunert */
+#marcus .col-md-6 {
+    margin-bottom: 25px;
+}
+#marcus hr {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+#marcus hr.bottom {
+    margin-top: 20px;
+}
 #marcus table > tbody > tr > td {
-    padding-top: 3px;
-    padding-bottom: 3px;
+    line-height: 26px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     vertical-align: top;
 }
 #marcus table > tbody > tr > td:nth-of-type(1) {
@@ -222,7 +336,10 @@ nav.navbar-default li > a:active {
 
 /* Employees */
 #employees {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
+}
+#employees .col-sm-4 {
+    margin-bottom: 40px;
 }
 #employees img {
     margin-top: 20px;
@@ -231,10 +348,10 @@ nav.navbar-default li > a:active {
 }
 #employees h4 {
     margin-top: 35px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 1.1px;
     text-transform: uppercase;
 }
 
@@ -249,26 +366,28 @@ nav.navbar-default li > a:active {
     align-items: center;
     margin-bottom: 20px;
     padding-bottom: 15px;
+    font-size: 16px;
     font-weight: bold;
-    line-height: 125%;
+    line-height: 22px;
     color: #58585a;
     border-bottom: 1px solid #D6D6D7;
 }
 #leistungen h5 > span.check {
     margin-right: 10px;
-    width: 50px;
-    height: 40px;
+    width: 35px;
+    min-width: 35px;
+    height: 44px;
     background: url('../images/icon_check.svg') no-repeat left;
-    background-size: 40px 40px;
+    background-size: 35px 35px;
 }
 #leistungen .col-md-4 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 /* Kontakt */
 #kontakt {
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 #kontakt h2 {
     margin-bottom: 60px;
@@ -422,6 +541,9 @@ body.imprint h2 {
 body.imprint p {
     margin-bottom: 30px;
 }
+body.imprint footer {
+    margin-top: 50px;
+}
 
 /* Footer */
 footer {
@@ -444,6 +566,12 @@ footer a {
     text-decoration: none !important;
     text-transform: uppercase;
 }
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 991px) {
@@ -453,9 +581,13 @@ footer a {
     #header div.header-box-1 {
         margin-top: 10px;
     }
+
+    #marcus h4 {
+        margin-top: 30px;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     nav.navbar {
         min-height: 54px;
     }
@@ -466,9 +598,20 @@ footer a {
     nav.navbar-default ul {
         margin-top: 7px;
     }
+    nav.navbar-default .navbar-nav li > a {
+        text-align: right;
+    }
+    nav.navbar-default .navbar-nav li:last-child > a {
+        padding-right: 15px;
+    }
+    nav.navbar-default .navbar-collapse {
+        border: medium none;
+    }
 
     #header div.header-box-wrapper {
         position: relative;
+        top: auto;
+        left: auto;
     }
     #header div.header-box-1 {
         margin-top: 0;
@@ -477,6 +620,29 @@ footer a {
         max-width: 100%;
         width: 100%;
     }
+
+    .stoerer {
+        display: none;
+    }
+    #carousel {
+        margin-top: 20px;
+    }
+
+    #employees img {
+        width: 80%;
+    }
+
+    #kontakt .col-icon {
+        margin-bottom: 45px;
+    }
+    #kontakt .col-icon p {
+        font-size: 15px;
+    }
+
+    #kontakt p.large {
+        font-size: 20px;
+    }
+
     footer {
         font-size: 13px;
         line-height: 20px;
