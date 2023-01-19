@@ -535,7 +535,7 @@
         </div>
     </footer>
 
-    <div id="aaron-illu-modal" class="modal modal-vertical-centered fade" tabindex="-1" role="dialog">
+    <div id="aaron-illu-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header hidden-lg">
@@ -571,10 +571,10 @@
     <script type="text/javascript" src="assets/scripts/custom.js"></script>
     <script>
         $(document).ready(function() {
-            const dialogShown = sessionStorage.getItem('dialogShown')
-            if (! dialogShown) {
+            const date = new Date();
+            const endDate = new Date('2023-07-01');
+            if (date.getTime() < endDate.getTime()) {
                 $('#aaron-illu-modal').modal('show');
-                sessionStorage.setItem('dialogShown', 1)
             }
         })
     </script>

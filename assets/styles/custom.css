@@ -155,10 +155,6 @@ hr {
 .modal-backdrop.in {
     opacity: 0.8;
 }
-.modal-vertical-centered {
-    display: flex;
-    align-items: center;
-}
 
 /* Navigation */
 nav {
@@ -473,6 +469,13 @@ body.aaron-illu .media-heading {
     text-transform: none;
 }
 
+@media only screen and (min-width: 992px) {
+    #aaron-illu-modal {
+        display: flex;
+        align-items: center;
+    }
+}
+
 #aaron-illu-modal .modal-content {
     border-radius: 0;
 }
@@ -508,6 +511,8 @@ body.aaron-illu .media-heading {
 }
 
 #aaron-illu-modal .btn {
+    display: block;
+    width: 160px;
     background-color: #4cadde;
     border-color: #4cadde;
     border-radius: 0;
@@ -542,6 +547,10 @@ body.aaron-illu .media-heading {
 @media only screen and (max-width: 991px) {
     #aaron-illu-modal h2 {
         padding-bottom: 20px;
+    }
+
+    #aaron-illu-modal .btn {
+        margin: 0 auto;
     }
 }
 
